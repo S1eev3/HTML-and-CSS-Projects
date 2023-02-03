@@ -1,7 +1,15 @@
+p {
+	color: blue;
+	text-shadow: 4px 4px 12px #FFA500;
+}
+
 ol {
 	list-style-type: upper-roman;
+	text-shadow: 2px 2px 8px #FF0000
 }
 
 ul {
 	list-style-type: square;
+	text-shadow: 1px 1px 4px #14FE14;
 }
+
