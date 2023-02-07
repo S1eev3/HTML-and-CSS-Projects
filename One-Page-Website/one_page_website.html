@@ -4,17 +4,34 @@
 	<head>
 		<meta charset="utf-8">
 		<title>4 Wheels 4-U</title>
+		<style>
+		* {
+			box-sizing: border-box;
+		}
+		
+		.column {
+			float: left;
+			width: 33.33%;
+			padding: 5px;
+		}
+		
+		.row::after {
+			content: "";
+			clear: both;
+			display: table;
+		}
+		</style>
 	</head>
 	<body>
 	
 		<!-- NAV -->
 		<div>
 			<ul>
-				<a href="#About"><li>About</li></a>
-				<a href="#Gallery"><li>Gallery</li></a>
-				<a href="#Video"><li>Video</li></a>
-				<a href="Contact Form"><li>Contact Form</li></a>
-				<a href="#Support"><li>Support</li></a>
+				<a href="#about"><li>About</li></a>
+				<a href="#gallery"><li>Gallery</li></a>
+				<a href="#video"><li>Video</li></a>
+				<a href="#contact"><li>Contact Form</li></a>
+				<a href="#support"><li>Support</li></a>
 			</ul>
 		<div>
 		
@@ -22,39 +39,60 @@
 		
 		<!-- About -->
 		<div id="about">
-			<h2>4 Wheels 4-U OFF-ROAD RENTALS</h2>
-			<p>We are here to get you on the trails!</p>
+			<h1>4 Wheels 4-U OFF-ROAD RENTALS</h1>
+			<h2>We are here to get you on the trails!</h2>
+			<p>Come and explore the wilderness on your own terms.</p>
 		</div>
 		
 		<!-- GALLERY -->
 		<div id="gallery">
+			<h3>Don't wait this could be you!</h3>
+			<div class="row">
+				<div class="column">
+					<img src="images/thumb_1.jpg" alt="Thumbnail 1" style="width:100%">
+				</div>
+				<div class="column">
+					<img src="images/thumb_2.jpg" alt="Thumbnail 2" style="width:100%">
+				</div>
+				<div class="column">
+					<img src="images/thumb_3.jpg" alt="Thumbnail 3" style="width:100%">
+				</div>
+			</div>
 		
 		</div>
 		
 		<!-- END GALLERY -->
 		
+		<!-- CONTACT FORM -->
+		<div id="contact">
+			<h3>Please tell us how we can reach you to setup your adventure.</h3>
+			<div>
+				<form action="" method="get">
+				First name: <input type="text" name="First_Name"><br>
+				Last name: <input type="text" name="Last_Name"><br>
+				Email: <input type="email" name="Email"><br>
+				Phone Number: <input type="phone" name="Phone_Number"><br>
+				<input type="submit" value="Submit">
+				</form>
+			</div>
+		</div>
+		<!-- END CONTACT FORM -->
+		
 		<!-- VIDEO -->
 		<div id="video">
-		
+			<h3>We don't recommend attempting any of these stunts but 
+			this should at least be able to get you in the mood!</h3>
+			<iframe width="560" height="315" src="https://youtube.com/embed/aLqdOpE-lm8">
 		</div>
 		
 		<!-- END VIDEO -->
 		
-		<!-- CONTACT FORM -->
-		<div id="contact form">
-		
-		</div>
-		<!-- END CONTACT FORM -->
-		
 		<!-- SUPPORT -->
 		<div id="support">
-		
+			<footer>
+				<p>(925)784-4541 &nbsp;|&nbsp; mitchal.larson@gmail.com &nbsp;|&nbsp; &copy; 2023</p>
+			</footer>
 		</div>
 		<!-- END SUPPORT -->
-		
-		<!-- FOOTER -->
-		<div>
-		
-		</div>
-		
-		<!-- END FOOTER -->
+	</body>
+</html>
