@@ -4,16 +4,27 @@
 		<meta charset="utf-8">
 		<title>My First Form</title>
 	</head>
+	<body>
+		<form action="" method="get">
+			First name: <input type="text" name="First_Name"><br>
+			Last name: <input type="text" name="Last_Name"><br>
+			Email: <input type="email" name="Email"><br>
+			Password: <input type="password" name="Password"><br>
+			<input type="submit" value="Submit">
+		</form>
 	
-	<form action="" method="get">
-		First name: <input type="text" name="First_Name"><br>
-		Last name: <input type="text" name="Last_Name"><br>
-		Email: <input type="email" name="Email"><br>
-		Password: <input type="password" name="Password"><br>
-		<input type="submit" value="Submit">
-	</form>
-	
-	<em>Check out the latest news in PC hardware.</em><br>
-	<a href="https://www.pcgamer.com/hardware/news/" target="new">PC Gamer Hardware News</a>
-	
+		<article>
+			<em>Check out the latest news in PC hardware.</em><br>
+			<a href="https://www.pcgamer.com/hardware/news/" target="new">PC Gamer Hardware News</a>
+		</article>
+		
+		<details>
+			<summary>Introduction</summary>
+			<p>This is information that is within my details element.</p>
+		</details>
+		
+		<h3>The Time Element</h3>
+			<p>Microcenter is open from <time>9:00</time> to <time>21:00</time> on weekdays.</p>
+			<p>The next GPU pickup is available starting <time datetime="2023-03-01 9:00">March 1st at 9am.</p>
+	</body>	
 </html>
