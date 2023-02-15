@@ -138,7 +138,7 @@ footer {
 
 /* Navbar home button - disabled different coloring*/
 .navbar a.active {
-    background-color:;
+    background-color: none;
 }
 /***** END OF NAVBAR STYLING *****/
 
