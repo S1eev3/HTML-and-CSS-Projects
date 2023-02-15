@@ -12,16 +12,72 @@
                 filter: grayscale(100%);
                 border-radius: 10px;
             }
+
             footer {
                 text-align: center;
                 font-weight: bold;
             }
+
+            table, th, td {
+                border: 1px solid;
+            }
+
+            td, th {
+                padding: 5px;
+            }
+
+            th {
+                background-color: aqua;
+            }
+
+            .image-container {
+                position: relative;
+                text-align: center;
+                color: white;
+            }
+
+            .centered {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
         </style>
     </head>
 <body>
-    <div>
+    <div class="image-container">
         <img src="./images/thumb_4.jpg" alt="jeep image" class="center"
         width="420">
+        <div class="centered">Isn't this majestic!</div>
+    </div>
+
+    <div class="table-container">
+        <table><h3>Harry Potter Legacy Spells</h3>
+            <tr>
+                <th>Control Spells</th>
+                <th>Damage Spells</th>
+                <th>Force Spells</th>
+                <th>Unforgiveable Spells</th>
+            </tr>
+            <tr>
+                <td>Levioso</td>
+                <td>Diffindo</td>
+                <td>Accio</td>
+                <td>Crucio</td>
+            </tr>
+            <tr>
+                <td>Glacius</td>
+                <td>Incendio</td>
+                <td>Depulso</td>
+                <td>Imperio</td>
+            </tr>
+            <tr>
+                <td>Transformation</td>
+                <td>Confringo</td>
+                <td>Flippendo</td>
+                <td>Avada Kedavra</td>
+            </tr>
+        </table>
     </div>
 
     <footer>
