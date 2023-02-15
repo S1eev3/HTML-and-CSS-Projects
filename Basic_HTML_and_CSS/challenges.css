@@ -54,6 +54,11 @@ th {
 .column {
     float: left;
     width: 50%;
+    color: aqua;
+    height: 300px;
+    width: 50%;
+    margin-top: 20px;
+    text-align: center;
 }
 
 .row:after {
