@@ -110,5 +110,25 @@ video {
     width: 25%;
     position: relative;
     margin-bottom: 20px;
+    text-align: center;
 }
 
+.video-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+
+.video-text h3 {
+    color: black;
+    font-weight: 600;
+    margin: 2rem 3rem 0;
+    padding: 5px 15px;
+    text-align: center;
+    z-index: 1;
+    position: absolute;
+    top: 10%;
+    left: 43%;
+    transform: translate(-50%, -50%);
+}
