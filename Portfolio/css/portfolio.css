@@ -85,7 +85,7 @@ footer {
 /***NAVBAR STYLING***/
 .navbar {
     overflow: hidden;
-    background-color: black;
+    background-color: skyblue;
     position: fixed;
     top: 0;
     width: 100%;
@@ -104,7 +104,7 @@ footer {
 .navbar a {
     float: left;
     display: block;
-    color: white;
+    color: black;
     padding: 14px 16px;
     text-decoration: none;
     font-family: Avant Garde, Helvetica;
@@ -131,14 +131,14 @@ footer {
 
 /* Navbar hover effects */
 .navbar a:hover {
-    background: #f4f4f4;
-    color: black;
+    background: black;
+    color: white;
     font-weight: bold;
 }
 
-/* Navbar home button */
+/* Navbar home button - disabled different coloring*/
 .navbar a.active {
-    background-color: darkgrey;
+    background-color:;
 }
 /***** END OF NAVBAR STYLING *****/
 
@@ -208,7 +208,7 @@ footer {
     padding: 10px;
     padding-top: 1.9%;
     height: 400px;
-    background-color: #4d4d4d;
+    background-color: skyblue;
 }
 
 /* This class is applied to the columns in the final row, overriding the height and padding to provide more room for the contact form  while keeping the rest of the formatting from Column_1 or Column_2 */
