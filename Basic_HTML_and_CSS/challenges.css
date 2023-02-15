@@ -39,3 +39,15 @@ th {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.navbar {
+    background-color: aqua;
+}
+
+.navbar a {
+    color: black;
+}
+.navbar a:hover {
+    color: white;
+
+}
