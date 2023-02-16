@@ -1,2 +1,15 @@
 # HTML-and-CSS-Projects
-This is a repository to house my projects for the HTML and CSS course in the Tech Academy Boot Camp.
+This is a display of sample websites that I made using HTML and CSS.
+
+## Projects
+
+* [Space Station Site](https://github.com/S1eev3/HTML-and-CSS-Projects/tree/main/Project)
+* [Movie Theater Site](https://github.com/S1eev3/HTML-and-CSS-Projects/tree/main/bootstrap4_project)
+
+### Space Station Site
+
+This page is an example home page for a Space travel company. It's styled using CSS and contains a navbar, image containers, and a form.
+
+### Movie Theater Site
+
+This page is an example home page for a Movie theater that is styled using Bootstrap 4. It contains many Bootstrap components including but not limited to a navbar, jumbotron, form, cards, and dropdowns. 
